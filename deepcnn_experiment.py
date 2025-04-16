@@ -1,3 +1,26 @@
+# 
+# This script trains a Deep Convolutional Neural Network (DeepCNN) on the CIFAR-10 dataset,
+# using different optimizers (SGD, Adam, AdamW) to evaluate performance across multiple runs.
+# It includes hyperparameter tuning, custom weight initialization, and training visualization.
+
+# Main Features:
+# - Loads and augments the CIFAR-10 dataset for training.
+# - Initializes a DeepCNN model with stable initialization strategies.
+# - Tunes hyperparameters using limited trials for optimizers (except "LW").
+# - Trains the model using a configurable number of epochs and saves the results.
+# - Uses a centralized experiment runner to:
+#     - Run multiple training sessions per optimizer.
+#     - Collect and log loss, accuracy, F1 score, gradient norms, and training times.
+#     - Generate plots and save metrics to CSV files.
+# - Produces publication-quality plots using Seaborn and Matplotlib.
+# - Saves trained model weights and experiment outputs to the local `results/` and `visuals/` directories.
+
+# Configuration values such as batch size, epoch count, and parameter grids
+# are imported from a separate `config.py` file.
+# Written by Logan Luna, Katherine Hoffsetz, Matthew Berkowitz, Vincent Reggi for Object Classification Via Deep Convolutional Neural Networks
+
+# Import necessary libraries and modules
+
 import os
 from utils.train_utils import run_training, get_layer_names
 from utils.experiment_runner import run_experiments

@@ -1,3 +1,18 @@
+# This script loads trained DeepCNN models (trained using different optimizers) and runs them
+# on the CIFAR-10 test dataset to generate predictions and visualizations.
+
+# Main Features:
+# - Loads pre-trained DeepCNN models from the `results/` directory for each optimizer: SGD, Adam, and AdamW.
+# - Applies the models to the CIFAR-10 test set using a consistent preprocessing pipeline.
+# - Generates visual predictions for a limited number of samples (NUM_PREDICTIONS) and saves annotated images:
+#     - Predicted class is overlaid as a label using PIL.
+#     - Images are resized and saved in `visuals/predictions/` for comparison.
+# - Uses Torch's evaluation mode and disables gradient computation for efficient inference.
+# - Collects and stores predictions for each optimizer (CSV export code is included but commented out).
+
+# Written by Logan Luna, Katherine Hoffsetz, Matthew Berkowitz, Vincent Reggi for Object Classification Via Deep Convolutional Neural Networks
+
+
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader

@@ -1,25 +1,26 @@
-"""
-Configuration file for Deep CNN experiments.
 
-This file defines the parameter grid for hyperparameter tuning, optimizer-specific 
-parameters, and learning rate scheduler configurations.
+# Configuration file for Deep CNN experiments.
 
-Attributes:
-    PARAM_GRID (dict): A dictionary containing hyperparameter grids for various 
-        optimizers. Each optimizer has its own set of tunable parameters such as 
-        learning rate, momentum, weight decay, etc.
-    BATCH_SIZE (int): The batch size used for training.
-    EPOCHS (int): The number of epochs for training.
-    LR (float): The default learning rate for optimizers.
-    OPTIMIZERS (list): A list of optimizer names available for use in experiments.
-    OPTIMIZER_PARAMS (dict): A dictionary containing default parameters for each 
-        optimizer. These parameters are used during training.
-    SCHEDULER_PARAMS (dict): A dictionary containing learning rate scheduler 
-        configurations for each optimizer. Each scheduler has its own parameters 
-        for controlling the learning rate schedule.
-    RUNS_PER_OPTIMIZER (int): The number of runs to perform for each optimizer.
+# This file defines the parameter grid for hyperparameter tuning, optimizer-specific 
+# parameters, and learning rate scheduler configurations.
 
-"""
+# Attributes:
+#     PARAM_GRID (dict): A dictionary containing hyperparameter grids for various 
+#         optimizers. Each optimizer has its own set of tunable parameters such as 
+#         learning rate, momentum, weight decay, etc.
+#     BATCH_SIZE (int): The batch size used for training.
+#     EPOCHS (int): The number of epochs for training.
+#     LR (float): The default learning rate for optimizers.
+#     OPTIMIZERS (list): A list of optimizer names available for use in experiments.
+#     OPTIMIZER_PARAMS (dict): A dictionary containing default parameters for each 
+#         optimizer. These parameters are used during training.
+#     SCHEDULER_PARAMS (dict): A dictionary containing learning rate scheduler 
+#         configurations for each optimizer. Each scheduler has its own parameters 
+#         for controlling the learning rate schedule.
+#     RUNS_PER_OPTIMIZER (int): The number of runs to perform for each optimizer.
+#
+# Written by Logan Luna, Katherine Hoffsetz, Matthew Berkowitz, Vincent Reggi for Object Classification Via Deep Convolutional Neural Networks
+
 # Determine runs per optimizer
 RUNS_PER_OPTIMIZER = 1
 BATCH_SIZE = 64
