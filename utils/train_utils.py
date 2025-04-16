@@ -1,3 +1,7 @@
+# This module provides reusable utilities for model training, including metrics calculation,
+# gradient norm tracking, and learning rate scheduling. Supports classification tasks
+# with F1 score and AUC evaluation
+
 import time
 import torch
 import sys, os

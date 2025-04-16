@@ -1,4 +1,3 @@
-
 # Configuration file for Deep CNN experiments.
 
 # This file defines the parameter grid for hyperparameter tuning, optimizer-specific 

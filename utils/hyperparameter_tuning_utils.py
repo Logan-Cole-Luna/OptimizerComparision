@@ -1,3 +1,7 @@
+# Hyperparameter Tuning Framework for PyTorch Models
+
+# This module provides utilities for training PyTorch models and tuning optimizer hyperparameters
+# for classification and regression tasks.
 import torch
 import torch.nn as nn
 import random

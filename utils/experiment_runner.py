@@ -1,3 +1,5 @@
+# This module provides a framework for running and evaluating training experiments using various optimizers.
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd

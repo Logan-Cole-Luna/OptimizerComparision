@@ -1,3 +1,8 @@
+# CNN with Residual Blocks for Image Classification
+
+# This module defines a deep convolutional neural network (CNN) with residual connections for
+# improved gradient flow and training stability. Designed primarily for classification tasks
+# on color images (e.g., CIFAR-10, CIFAR-100).
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
