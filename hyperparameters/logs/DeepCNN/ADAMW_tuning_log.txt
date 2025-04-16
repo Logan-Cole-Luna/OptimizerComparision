@@ -1,0 +1,7 @@
+Tuning log for ADAMW:
+Trial 1: ADAMW - Accuracy: 0.3047, Params: {'lr': 0.01, 'weight_decay': 0.05}
+Trial 2: ADAMW - Accuracy: 0.6790, Params: {'lr': 0.001, 'weight_decay': 0.01}
+Trial 3: ADAMW - Accuracy: 0.1000, Params: {'lr': 0.01, 'weight_decay': 0.05}
+Trial 4: ADAMW - Accuracy: 0.6899, Params: {'lr': 0.001, 'weight_decay': 0.01}
+Trial 5: ADAMW - Accuracy: 0.1000, Params: {'lr': 0.01, 'weight_decay': 0.01}
+Trial 6: ADAMW - Accuracy: 0.1000, Params: {'lr': 0.01, 'weight_decay': 0.05}

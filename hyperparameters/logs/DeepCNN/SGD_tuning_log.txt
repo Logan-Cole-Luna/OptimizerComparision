@@ -1,0 +1,7 @@
+Tuning log for SGD:
+Trial 1: SGD - Accuracy: 0.3720, Params: {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.001}
+Trial 2: SGD - Accuracy: 0.3549, Params: {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.001}
+Trial 3: SGD - Accuracy: 0.1000, Params: {'lr': 0.1, 'momentum': 0.9, 'weight_decay': 0.001}
+Trial 4: SGD - Accuracy: 0.3674, Params: {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.001}
+Trial 5: SGD - Accuracy: 0.3683, Params: {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.001}
+Trial 6: SGD - Accuracy: 0.1000, Params: {'lr': 0.1, 'momentum': 0.9, 'weight_decay': 0.0005}
