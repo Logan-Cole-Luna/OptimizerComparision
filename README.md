@@ -36,13 +36,7 @@ This repository contains a PyTorch implementation of a Deep Convolutional Neural
 
 3. Install the dependencies:
 
-   If a requirements.txt is available:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   Otherwise, install manually:
+   Install manually:
 
    ```bash
    pip install torch torchvision matplotlib numpy
@@ -66,8 +60,6 @@ The script will:
 
 - PyTorch Installation: https://pytorch.org/get-started/locally/
 - CIFAR-10 Dataset: https://www.cs.toronto.edu/~kriz/cifar.html
-
-> Note: If a CUDA-compatible GPU is available, the script will use it. Otherwise, it defaults to CPU.
 
 ## Results
 
