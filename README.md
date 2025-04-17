@@ -36,10 +36,15 @@ This repository contains a PyTorch implementation of a Deep Convolutional Neural
 
 3. Install the dependencies:
 
+   Install using requirements.txt:
+   
+   ```bash
+   pip install -r requirements.txt
+   ```
    Install manually:
 
    ```bash
-   pip install torch torchvision matplotlib numpy
+   pip install torch torchvision matplotlib numpy seaborn
    ```
 
 ## Running the Script
