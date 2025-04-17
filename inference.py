@@ -19,7 +19,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 import pandas as pd
 import os
-from network import DeepCNN  # Import the DeepCNN class
+from utils.network import DeepCNN  # Import the DeepCNN class
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
